@@ -1,0 +1,311 @@
+*{
+  box-sizing: border-box;
+}
+body{
+    background-image: url("../css/img/High_resolution_wallpaper_background_ID_77701322265.webp");
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .content{
+  display: grid;
+  background-color: white;
+  width:900px;
+
+  margin:50px auto;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows:  50px auto 50px;
+  grid-template-areas: "se se se se to to to to to to "
+                        "con con con con chat chat chat chat chat chat ";
+                   
+  }
+  .con div{
+    padding-left:90px;
+  }
+  .se{
+    grid-area:se;
+    background-color: white;
+  
+  }
+  .to{
+    grid-area:to ;
+    background-color:#eee;
+  }
+  .con{
+  background-color:white;
+  grid-area: con;
+  }
+  .chat{
+    background-color:white;
+    grid-area: chat;
+    padding:10px;
+  
+  }
+  
+  .zero{
+    background-color: #eee;
+    width: 300px;
+    height: 42px;
+    border: 10px solid #eee;
+    border-radius: 50px;
+
+    color: gray;
+    text-align: left;
+    margin-top: 6px;
+}
+   .chat p{
+    background-color: #00b0ff;
+    position: relative;
+    width: 203px;
+    height: 31px;
+    border: 2px solid transparent;
+    border-radius: 10%;
+    color: white;
+    text-align: center;
+    border-radius: 40px;
+}
+   .chat .A3,
+   .chat .A4{
+    background-color: #eceff1;
+    color:#333;
+   }
+   
+   .chat .A2{
+    width: 250px;
+   }
+   .chat .A3{
+   width: 60px;
+   }
+   /* .chat .A1::before{
+    content:"";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border: 9px solid;
+    border-color: transparent #00b0ff transparent transparent;
+    left: -19px;
+    top: 10px;
+   } */
+   /* .chat .A2::before{
+    content:"";
+    position: absolute;
+    border: 9px solid;
+    border-color: transparent #00b0ff transparent transparent;
+    top: 6px;
+    left: -18px;
+   } */
+   /* .chat .A3::before,
+   .chat .A4::before{
+    content:"";
+    position: absolute;
+    border: 9px solid;
+    border-color: transparent transparent transparent #eceff1;
+   }
+   .chat .A3::before{
+    left: 72px;
+    top:10px;
+   }
+   .chat .A4::before{
+    left: 213px;
+    top: 10px;
+   } */
+   /* .chat .A5::before{
+    content:"";
+    position: absolute;
+    border: 9px solid;
+    border-color: transparent #00b0ff transparent transparent;
+    left: -18px;
+top: 8px;
+  } */
+  
+  .A1{
+    top: 240px;
+  }
+  .A2{
+    top: 125px;
+  }
+  .A3{
+    top: 235px;
+    left: 416px;
+  }
+  .A4{
+    top: 121px;
+    left: 275px;
+  
+  }
+  .A5{
+    top: 181px;
+  }
+  
+  .one,
+  .two,
+  .three,
+  .four,
+  .five{
+    position:relative;
+  }
+  .one::before{
+    content: "";
+    width: 280px;
+    height: 1px;
+    background-color: #8080806b;
+    position: absolute;
+    top: -8px;
+    left: 70px;
+  }
+  .two::before{
+    content: "";
+    width: 280px;
+    height: 1px;
+    background-color: #8080806b;
+    position: absolute;
+    top: -8px;
+    left: 70px;
+  }
+  .three::before{
+    content: "";
+    width: 280px;
+    height: 1px;
+    background-color: #8080806b;
+    position: absolute;
+    top: -8px;
+    left: 70px;
+  }
+  .four::before{
+    content: "";
+    width: 280px;
+    height: 1px;
+    background-color: #8080806b;
+    position: absolute;
+    top: -8px;
+    left: 70px;
+  
+  }
+  
+  div p{
+    color: gray;
+  }
+  .five p{
+    color:white;
+  } 
+  .five{
+    background-color: #00b0ff;
+    color: white;
+    width: 359px;
+    height: 73px;
+
+   } 
+   .To{
+    background-color: #eee;
+    position: relative;
+    height: 19px;
+    text-align: justify;
+    padding: 25px;
+    font-size: 20px;
+    color:gray;
+   }
+   b{
+     color:black;
+   }
+   .con{
+     position: relative;
+   }
+   .con::after{
+    content: "";
+    width: 1px;
+    height: 650px;
+    background-color: #80808057;
+    position: absolute;
+    left: 359px;
+    top: -49px;
+    }
+    #t1::after{
+      content: attr(data-time1);
+      position: absolute;
+      color: #80808087;
+      left: 288px;
+      font-size: 13px;
+      top:1px;
+    }
+    #t2::after{
+      content: attr(data-time2);
+      position: absolute;
+      color: #80808087;
+      left:288px;
+      font-size: 13px;
+      
+    }
+    #t3::after{
+      content: attr(data-time3);
+      position: absolute;
+      color: #80808087;
+      left:288px;
+      font-size: 13px;
+      top: 1px;
+    }
+    #t4::after{
+      content: attr(data-time4);
+      position: absolute;
+      color: #80808087;
+      left:288px;
+      font-size: 13px;
+      top: 1px;
+    }
+    #t5::after{
+      content: attr(data-time5);
+      position: absolute;
+      color: #80808087;
+      left: 288px;
+      font-size: 13px;
+      top: 1px;
+    }
+    #t6::after{
+      content: attr(data-time6);
+      position: absolute;
+      color: #80808087;
+      left:288px;
+      font-size: 13px;
+      top: 1px;
+    }
+    .em{
+      width: 495px;
+    height: 40px;
+    background-color: #eee;
+    position: relative;
+    top: 175px;
+    border-radius:50px;
+    }
+    .one img
+    ,.two img
+    ,.three img,
+    .four img ,
+    .five img{
+      width: 60px;
+      height: 60px;
+      border: 5px solid #eee0;
+      border-radius: 50%;
+      top: 4px;
+      position: absolute;
+      left: 15px;
+  }
+    .cir{
+      width: 35px;
+      height: 35px;
+      background-color: #00b0ff;
+      border-radius: 50%;
+      position: relative;
+      top: -350px;
+      left: -80px;
+      margin-left: 10px;
+  }
+     .em i{
+      color: #777;
+      padding:5px
+     }
+     .cir i{
+      color: white;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+i{
+  color:white;
+  font-size: 22px;
+}
